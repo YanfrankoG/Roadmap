@@ -4,6 +4,19 @@
   margin: 0;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+ul,
+address {
+  font-family: "open sans";
+  font-weight: 500;
+}
 body {
   padding: 0 100px;
 }
@@ -15,13 +28,25 @@ hr {
   background-color: black;
   border-radius: 10px;
 }
-h1 {
-  font-family: "Open Sans";
+
+h4 {
   font-weight: 500;
+  color: rgb(2, 168, 101);
 }
 
 h3 {
-  font-family: "Open Sans";
+  color: rgb(0, 128, 255);
+}
+address {
   font-weight: 500;
-  color: rgb(0, 128, 77);
+}
+.git-hub,
+.linkedin {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.git-icon,
+.linkedin-icon {
+  height: 1.5rem;
 }
