@@ -1,1 +1,1 @@
-A simple dv landing page: https://roadmap.sh/projects/single-page-cv
+A simple cv landing page: https://roadmap.sh/projects/single-page-cv
